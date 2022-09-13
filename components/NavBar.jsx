@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from "react";
 import Image from "next/image";
 import { FaFacebook } from "react-icons/fa";
-import { AiOutlineMenuFold, AiOutlineMenuUnfold } from "react-icons/Ai";
+import { AiOutlineMenuFold, AiOutlineMenuUnfold } from "react-icons/ai";
 
 const NavBar = () => {
   const [mobileNav, setMobileNav] = useState(true);
@@ -36,17 +36,17 @@ const NavBar = () => {
           <div className="mt-4 cursor-pointer">ჩვენს შესახებ</div>
         </div>
         <a href="https://www.facebook.com/toliaswimclub">
-        <div className="contactIcons flex justify-center mt-8 rounded-full shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-300">
-          <FaFacebook size={25} />
-        </div>
+          <div className="contactIcons flex justify-center mt-8 rounded-full shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-300">
+            <FaFacebook size={25} />
+          </div>
         </a>
       </div>
-        <div
-          className={mobileNav ? "hidden" : "absolute left-4 top-4"}
-          onClick={changeNav}
-        >
-          <AiOutlineMenuUnfold size={30} />
-        </div>
+      <div
+        className={mobileNav ? "hidden" : "absolute left-4 top-4"}
+        onClick={changeNav}
+      >
+        <AiOutlineMenuUnfold size={30} />
+      </div>
     </Fragment>
   );
 };
