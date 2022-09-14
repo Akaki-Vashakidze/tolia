@@ -7,7 +7,7 @@ import ImageBackground from '../components/imageBackground';
   return (
     <Fragment>
       <ImageBackground/>
-     <NavBar />
+      <NavBar />
     </Fragment>
   )
 }

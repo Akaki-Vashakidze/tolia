@@ -28,7 +28,7 @@ const ImageBackground = () => {
       <div className="top-0 left-0 w-full h-full fixed">
         <Image src={link} alt="/" layout="fill"/>
       </div>
-      
+      <div className="top-o fixed h-[100%] left-[10%] bg-gray-900 w-[80%] opacity-50 "></div>
 </Fragment>
   );
 };
