@@ -6,6 +6,6 @@ const nextConfig = {
 
 module.exports = {
   images: {
-    domains: ['']
+    domains: ['scontent.ftbs5-3.fna.fbcdn.net','scontent.ftbs5-2.fna.fbcdn.net']
   }
 }
