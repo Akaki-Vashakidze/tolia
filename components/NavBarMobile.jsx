@@ -24,11 +24,11 @@ const NavBarMobile = (props) => {
           <Image src="/toliaImages/tolia.png" alt="/" width="90" height="90" />
         </div>
         <div className="buttonsDiv">
-          <Link className='/news'><div className="mt-4 cursor-pointer">სიახლეები</div></Link>
-          <Link className='/prices'><div className="mt-4 cursor-pointer">ფასები</div></Link>
-          <Link className='/schedule'><div className="mt-4 cursor-pointer">განრიგი</div></Link>
-          <Link className='/contact'><div className="mt-4 cursor-pointer">კონტაქტი</div></Link>
-          <Link className='/about'><div className="mt-4 cursor-pointer">ჩვენს შესახებ</div></Link>
+          <Link href='/news'><div className="mt-4 cursor-pointer">სიახლეები</div></Link>
+          <Link href='/prices'><div className="mt-4 cursor-pointer">ფასები</div></Link>
+          <Link href='/schedule'><div className="mt-4 cursor-pointer">განრიგი</div></Link>
+          <Link href='/contact'><div className="mt-4 cursor-pointer">კონტაქტი</div></Link>
+          <Link href='/about'><div className="mt-4 cursor-pointer">ჩვენს შესახებ</div></Link>
         </div>
         <a href="https://www.facebook.com/toliaswimclub">
           <div className="contactIcons flex justify-center mt-8 rounded-full shadow-gray-400 cursor-pointer hover:scale-110 ease-in duration-300">
