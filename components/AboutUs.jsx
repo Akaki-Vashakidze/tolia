@@ -6,7 +6,7 @@ const AboutUs = () => {
     <Fragment>
       <div className="absolute top-[20%] w-[70%] left-[15%] justify-center items-center grid">
         <div className="bg-slate-100 shadow-lg shadow-gray-400 cursor-pointer list-none rounded-xl p-2">
-          <div className="m-2 grid grid-cols-2 rounded-xl">
+          <div className="m-2 md:grid md:grid-cols-2 rounded-xl">
             <div>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
               ullam consectetur quae quas dolorum, non, quis dolor quo
