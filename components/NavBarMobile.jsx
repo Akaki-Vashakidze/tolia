@@ -23,7 +23,7 @@ const NavBarMobile = (props) => {
         <div className="logo">
           <Image src="/toliaImages/tolia.png" alt="/" width="90" height="90" />
         </div>
-        <div className="buttonsDiv">
+        <div onClick={props.changeNav} className="buttonsDiv">
           <Link href='/news'><div className="mt-4 cursor-pointer">სიახლეები</div></Link>
           <Link href='/prices'><div className="mt-4 cursor-pointer">ფასები</div></Link>
           <Link href='/schedule'><div className="mt-4 cursor-pointer">განრიგი</div></Link>
@@ -37,10 +37,10 @@ const NavBarMobile = (props) => {
         </a>
       </div>
       <div
-        className={props.mobileNav ? "hidden" : " absolute left-4 top-4 sm:hidden"}
+        className={props.mobileNav ? "hidden" : " fixed left-4 top-4 sm:hidden"}
         onClick={props.changeNav}
       >
-        <AiOutlineMenuUnfold size={30} />
+        <AiOutlineMenuUnfold size={35} />
       </div>
     </Fragment>
   )
