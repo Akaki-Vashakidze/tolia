@@ -19,10 +19,12 @@ const NavBarMobile = (props) => {
           className="flex align-center justify-center pb-2"
         >
           <AiOutlineMenuFold size={25} />
-        </div>
-        <div className="logo">
+        </div >
+        <Link href="/">
+        <div onClick={props.changeNav} className="logo">
           <Image src="/toliaImages/tolia.png" alt="/" width="90" height="90" />
         </div>
+        </Link>
         <div onClick={props.changeNav} className="buttonsDiv">
           <Link href='/news'><div className="mt-4 cursor-pointer">სიახლეები</div></Link>
           <Link href='/prices'><div className="mt-4 cursor-pointer">ფასები</div></Link>
