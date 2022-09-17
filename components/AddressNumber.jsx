@@ -3,7 +3,7 @@ import { BiPhoneCall , BiMapPin} from "react-icons/bi";
 
 const AddressNumber = () => {
   return (
-    <div className="text-white fixed top-[95%] h-[5%] w-full left-0 bg-neutral-900 opacity-95 flex justify-center">
+    <div className="text-white text-xs fixed top-[95%] h-[5%] w-full left-0 bg-neutral-900 opacity-95 flex justify-center">
         <div className="w-[70%] justify-between items-center flex">
           <span className="flex justify-between items-center">
             <span className="mr-2">

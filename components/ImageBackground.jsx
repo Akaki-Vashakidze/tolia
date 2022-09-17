@@ -5,12 +5,12 @@ const ImageBackground = () => {
   let n = 1;
   const effectRan = useRef("false");
 
-  const [link, setLink] = useState("/toliaImages/pool1.jpeg");
+  const [link, setLink] = useState("/toliaImages/pool1.webp");
 
   useEffect(() => {
     if (effectRan.current === "false") {
       setInterval(() => {
-        setLink("/toliaImages/pool" + n + ".jpeg");
+        setLink("/toliaImages/pool" + n + ".webp");
         n < 4 ? n++ : (n = 1);
       }, 3000);
     }

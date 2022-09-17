@@ -3,7 +3,7 @@ import News from '../components/News';
 
 const news = () => {
   return (
-    <News />
+      <News />
   )
 }
 
